@@ -1,0 +1,536 @@
+
+img, legend {
+    border: 0 none;
+}
+legend, td, th {
+    padding: 0;
+}
+html {
+    font-family: sans-serif;
+}
+body {
+    margin: 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline;
+}
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+[hidden], template {
+    display: none;
+}
+a {
+    background-color: transparent;
+    color: #6c6c6c;
+    text-decoration: none;
+}
+.container .content form .mail-reg a:hover, .container .content form .verify .verify-area #captcha-area .captcha-refesh:hover {
+    text-decoration: underline;
+}
+a:active, a:hover {
+    outline: 0 none;
+}
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+b, optgroup, strong {
+    font-weight: 700;
+}
+dfn {
+    font-style: italic;
+}
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+mark {
+    background: #ff0 none repeat scroll 0 0;
+    color: #000;
+}
+small {
+    font-size: 80%;
+}
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+sup {
+    top: -0.5em;
+}
+sub {
+    bottom: -0.25em;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+figure {
+    margin: 1em 40px;
+}
+hr {
+    box-sizing: content-box;
+    height: 0;
+}
+pre, textarea {
+    overflow: auto;
+}
+code, kbd, pre, samp {
+    font-family: monospace,monospace;
+    font-size: 1em;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+button {
+    overflow: visible;
+}
+button, select {
+    text-transform: none;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+}
+button[disabled], html input[disabled] {
+    cursor: default;
+}
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0 none;
+    padding: 0;
+}
+input {
+    line-height: normal;
+}
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+input[type="search"] {
+    box-sizing: content-box;
+}
+fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+@font-face {
+    font-family: "iconfont";
+    src: url("../fonts/iconfont.eot?#iefix") format("embedded-opentype"), url("../fonts/iconfont.woff") format("woff"), url("../fonts/iconfont.ttf") format("truetype"), url("../fonts/iconfont.svg#iconfont") format("svg");
+}
+.iconfont {
+    font-family: iconfont !important;
+    font-style: normal;
+}
+.icon-taobaowanglogo::before {
+    content: "㖸";
+}
+.icon-daohangcaidan::before {
+    content: "";
+}
+.icon-duihao::before {
+    content: "";
+}
+.icon-mail::before {
+    content: "";
+}
+.icon-unie63c::before {
+    content: "";
+}
+.icon-taobaologo::before {
+    content: "";
+}
+.icon-iconfontshoucangjia::before {
+    content: "";
+}
+.icon-jiantouaxia::before {
+    content: "";
+}
+.icon-xiajiantou::before {
+    content: "";
+}
+.icon-err::before {
+    content: "";
+}
+.container, .container .content, .container .step-area ol {
+    margin-left: auto;
+    margin-right: auto;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: tahoma,arial,"Hiragino Sans GB",sans-serif;
+    font-size: 12px;
+    line-height: 1.5em;
+}
+.container .logo .register, .container .step-area ol {
+    font-family: "Microsoft YaHei","微软雅黑",Heiti,"黑体",sans-serif;
+}
+.red {
+    color: #f22e00;
+}
+header {
+    background: #f5f5f5 none repeat scroll 0 0;
+    border-bottom: 1px solid #eee;
+    height: 35px;
+    line-height: 35px;
+    width: 100%;
+}
+header #nav-bar::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+header #nav-bar .iconfont {
+    color: #9c9c9c;
+    width: 10px;
+}
+header #nav-bar .red {
+    color: #f22e00;
+}
+header #nav-bar div {
+    display: inline-block;
+}
+header #nav-bar a {
+    margin-right: 7px;
+}
+header #nav-bar .nav-bar-menu {
+    padding: 0 6px;
+}
+header #nav-bar .nav-bar-menu .arrow {
+    left: -4px;
+    position: relative;
+}
+header #nav-bar #nav-bar-right {
+    display: inline;
+    float: right;
+}
+header #nav-bar #nav-bar-right .separator {
+    color: #ddd;
+}
+header #nav-bar #nav-bar-right .nav-bar-menu {
+    float: left;
+}
+header #nav-bar #nav-bar-right a {
+    margin-right: 5px;
+}
+.container {
+    color: #3c3c3c;
+    width: 1190px;
+}
+.container .logo {
+    padding: 20px 0;
+}
+.container .logo .iconfont {
+    font-size: 53px;
+    position: relative;
+    top: 10px;
+}
+.container .logo .register {
+    font-size: 22px;
+    line-height: 43px;
+    margin-left: 6px;
+}
+.container .step-area {
+    border-bottom: 2px solid #e6e6e6;
+    height: 46px;
+    position: relative;
+    top: -9px;
+}
+.container .step-area ol {
+    list-style: outside none none;
+    width: 800px;
+}
+.container .step-area ol li {
+    color: #999;
+    float: left;
+    font-size: 16px;
+    font-weight: 700;
+    height: 46px;
+    line-height: 46px;
+    padding-left: 30px;
+    width: 180px;
+}
+.container .step-area ol li i {
+    background: rgba(0, 0, 0, 0) url("../images/ico-circle2.png") no-repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-style: normal;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    text-align: center;
+    width: 24px;
+}
+.container .step-area ol li i .iconfont {
+    font-size: 17px;
+    position: relative;
+    top: 1px;
+}
+.container .step-area ol li.active {
+    border-bottom: 2px solid #ff4700;
+    color: #3e3e3e;
+}
+.container .step-area ol li.active i {
+    background: rgba(0, 0, 0, 0) url("../images/ico-circle1.png") no-repeat scroll 0 0;
+}
+.container .step-area ol li::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.container .step-area ol.in-mail-reg li {
+    padding-left: 60px;
+    width: 240px;
+}
+.container .step-area .language {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 15px;
+}
+.container .step-area .language .cell {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 3px 5px;
+}
+.container .content {
+    font-size: 14px;
+    padding: 40px 0 50px 59px;
+    width: 320px;
+}
+.container .content .content-item {
+    padding: 10px 0;
+}
+.container .content form {
+    padding: 12px 0;
+}
+.container .content form .hide {
+    display: none;
+}
+.container .content form .email, .container .content form .phone {
+    height: 56px;
+    line-height: 34px;
+    position: relative;
+    width: 162px;
+}
+.container .content form .email .label, .container .content form .phone .label {
+    position: absolute;
+    right: 180px;
+    text-align: right;
+    width: 60px;
+}
+.container .content form .email .contry-code, .container .content form .phone .contry-code {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #ccc;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 2px 1px 1px;
+    font-weight: 700;
+}
+.container .content form .email .contry-code .contry, .container .content form .phone .contry-code .contry {
+    padding-left: 10px;
+}
+.container .content form .email .contry-code .code, .container .content form .phone .contry-code .code {
+    position: absolute;
+    right: 27px;
+}
+.container .content form .email .contry-code .arrow, .container .content form .phone .contry-code .arrow {
+    color: #888;
+    float: right;
+    font-weight: 100;
+    margin-right: 6px;
+}
+.container .content form .email input, .container .content form .phone input {
+    border: 1px solid #dedede;
+    height: 36px;
+    left: 161px;
+    padding-left: 8px;
+    position: absolute;
+    top: 10px;
+    width: 160px;
+}
+.container .content form .email input.err, .container .content form .phone input.err {
+    border-color: #ff3f13;
+}
+.container .content form .email input#email, .container .content form .phone input#email {
+    left: 0;
+    width: 220px;
+}
+.container .content form .email .errMsg, .container .content form .phone .errMsg {
+    color: #ff3f13;
+    font-size: 12px;
+    left: 330px;
+    position: absolute;
+    top: 10px;
+    width: 200px;
+}
+.container .content form .email .errMsg .iconfont, .container .content form .phone .errMsg .iconfont {
+    margin-right: 2px;
+}
+.container .content form .verify {
+    height: 56px;
+    line-height: 36px;
+    position: relative;
+    width: 300px;
+}
+.container .content form .verify .label {
+    left: -48px;
+    position: absolute;
+}
+.container .content form .verify .verify-area {
+    background: #e8e8e8 none repeat scroll 0 0;
+    text-align: center;
+}
+.container .content form .verify .verify-area .bg {
+    background: rgba(122, 194, 60, 0.8) none repeat scroll 0 0;
+    color: #fff;
+    height: 36px;
+    left: 0;
+    position: absolute;
+    top: 10px;
+    width: 0;
+}
+.container .content form .verify .verify-area .arrow {
+    background: #fff url("../images/rt.png") no-repeat scroll center center;
+    border: 1px solid #ccc;
+    color: rgba(122, 194, 60, 0.8);
+    cursor: move;
+    display: inline-block;
+    height: 36px;
+    left: 0;
+    position: absolute;
+    width: 41px;
+}
+.container .content form .verify .verify-area .arrow::before {
+    font-size: 22px;
+}
+.container .content form .verify .verify-area .verify-area-text {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #9c9c9c;
+    display: block;
+    font-size: 12px;
+}
+.container .content form .verify .verify-area #captcha-area {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    position: absolute;
+    top: 47px;
+    width: 301px;
+}
+.container .content form .verify .verify-area #captcha-area .captcha-text {
+    color: #ff3f13;
+    display: inline-block;
+    height: 26px;
+    padding-left: 25px;
+    text-align: left;
+    width: 100%;
+}
+.container .content form .verify .verify-area #captcha-area .captcha-refesh {
+    font-size: 10px;
+    position: absolute;
+    right: 25px;
+    top: 0;
+}
+.container .content form .next {
+    background-color: #ededed;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: 20px;
+    padding: 0;
+    text-align: center;
+    width: 180px;
+}
+.container .content form .next a {
+    color: #999;
+    display: block;
+    transition: all 0.6s ease 0s;
+}
+.container .content form .next.succeed {
+    background-color: #f73500;
+}
+.container .content form .next.succeed a {
+    color: #fff;
+}
+.container .content form .mail-reg a, .container .suggest a {
+    color: #ff5b20;
+}
+.container .content form .mail-reg {
+    font-size: 12px;
+    line-height: 36px;
+}
+.container .suggest {
+    padding: 10px 0;
+    text-align: right;
+}
+.container .suggest img {
+    vertical-align: middle;
+}
+.container footer {
+    border-top: 1px solid #ddd;
+}
+.container footer .alibaba-link {
+    margin-left: 3px;
+    padding-top: 11px;
+}
+.container footer .alibaba-link > * {
+    margin: 0 5px 0 0;
+}
+.container footer .alibaba-link > a + a::before {
+    color: #ddd;
+    content: "|";
+    margin-right: 7px;
+}
+.container footer .about-tb {
+    border-top: 1px solid #ddd;
+    margin-top: 12px;
+    padding-top: 8px;
+}
+.container footer .about-tb a {
+    float: left;
+    margin: 0 4px;
+}
+.container footer .about-tb span {
+    color: #9c9c9c;
+    margin-left: 30px;
+}
+.container footer .law {
+    color: #9c9c9c;
+    margin-left: 2px;
+    margin-top: 8px;
+}
+.container footer .law span {
+    margin-right: 2px;
+}
+.container footer .law span span {
+    color: #6c6c6c;
+}
+.container footer .law > span + span::before {
+    color: #ddd;
+    content: "|";
+    margin-right: 7px;
+}
+@media only screen and (max-width: 1190px) {
+.container {
+    width: 990px;
+}
+}

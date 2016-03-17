@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-16">
+    <title>document.write()ds</title>
+</head>
+<body>
+    <a id='baidu' href="http://www.baidu.com">百度</a>
+    <input class='a b c' id='btn' data-caonima='dsd' type="button" value='按钮'>
+    <div id='div1' data-canima='sdsd'></div>
+    <input onclick='alert(event.type)' id='btn1' type="button" value='按钮1'>
+
+    <script>
+    // var oA = document.getElementById('baidu');
+    // oA.onclick = function(event)
+    // {
+    //     event.cancelable = true;
+    // }
+    // var oBtn = document.getElementById('btn');
+    // oBtn.onclick = function(event)
+    // {
+    //     alert('asd');
+    //     event.stopPropagation();
+    // }
+    // document.onclick = function()
+    // {
+    //     alert('hello world')
+    // }
+    // oBtn.addEventListener('click',function(){
+    //     alert('sadsads')
+    // },false);
+    // oBtn.addEventListener('click',mxy,false);
+    // oBtn.removeEventListener('click',mxy,false);
+    // function mxy()
+    // {
+    //     alert('qqq')
+    // }
+    addEventListener(document,'mousewheel',function(event)
+    {
+        console.log(event.mousewheel);
+    })
+    </script>
+</body>
+</html>
+　  

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+	function aClass(obj)
+
+	{
+
+		if(obj === null)
+		{
+			return 'null';
+		}
+		if(typeof obj !== 'object')
+		{
+			return typeof obj;
+		}
+		
+		if(obj instanceof Array)
+		{
+			return 'array';
+		}
+		if(obj instanceof Date)
+		{
+			return 'date';
+		}
+		if(obj instanceof RegExp)
+		{
+			return 'regexp';
+		}
+		if(obj instanceof String)
+		{
+			return 'string';
+		}
+		if(obj instanceof Number)
+		{
+			return 'number';
+		}
+
+
+		return 'object';
+	}
+	var t = aClass(null);
+	console.log(t)
+	</script>
+</body>
+</html>

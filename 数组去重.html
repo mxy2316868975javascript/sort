@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+	function unique(arrs)
+	{
+
+		//先排序
+		var arr = arrs.sort(function(a,b)
+			{
+				return a-b;
+			});
+
+		//后去重
+
+		var aResult = [];
+		for(var i=0;i<arr.length;i++)
+		{
+			if(aResult.indexOf(arr[i]) == -1)//检测该字符串是否重复，是否在临时数组中
+			{
+				aResult.push(arr[i]);
+			}
+		};
+		return aResult;
+	}
+	document.write(unique([1,24,11,52,1,131,321,34654,64,61,122,1214,6413,131,451,12,1,45,12,2.,2,31,1]))
+	</script>
+</body>
+</html>
